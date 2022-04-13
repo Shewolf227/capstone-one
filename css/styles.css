@@ -603,7 +603,6 @@
     background: #f0f8fd;
     padding: 10px;
     width: 100%;
-    margin-left: 20px;
   }
 
   .date-time {
@@ -800,7 +799,6 @@
     flex-direction: row;
     margin-left: 10%;
     margin-top: 10%;
-    height: 200%;
   }
 
   .speakers ul li img {
