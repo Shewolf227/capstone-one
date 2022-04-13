@@ -202,7 +202,7 @@
     font-size: 15px;
     font-weight: 400;
     color: rgba(54, 54, 54, 0.9);
-    margin-top:30px;
+    margin-top: 30px;
     padding: 30px;
   }
 
@@ -304,7 +304,7 @@
   .speaker-description {
     font-size: 12px;
     font-weight: 500;
-    color: rgb(54 54 54 / 90%);;
+    color: rgb(54 54 54 / 90%);
   }
 
   .about {
@@ -395,11 +395,6 @@
     margin-bottom: 20px;
   }
 
-  .past-conference hr, .logo hr {
-    margin-left: 0;
-  }
-
-
   .partners {
     display: flex;
     flex-direction: column;
@@ -431,6 +426,11 @@
     background-color: orangered;
     border: none;
     height: 2px;
+  }
+
+  .past-conference hr,
+  .logo hr {
+    margin-left: 0;
   }
 
   .rights-reserved {
@@ -466,10 +466,10 @@
 
   .desktop-header {
     background: #fff;
-    box-shadow: 2px 0px 4px 0px #ff6940;
+    box-shadow: 2px 0 4px 0 #ff6940;
     position: sticky;
     top: 0;
-        z-index: 10;
+    z-index: 10;
   }
 
   .header1 {
@@ -546,7 +546,7 @@
   }
 
   #logo {
-        width: 31%;
+    width: 31%;
   }
 
   .about-logo-img {
@@ -591,7 +591,7 @@
     font-weight: 300;
   }
 
-   .description {
+  .description {
     margin: 10px 20px;
     width: 80%;
   }
@@ -603,7 +603,7 @@
     background: #f0f8fd;
     padding: 10px;
     width: 100%;
-        margin-left: 20px;
+    margin-left: 20px;
   }
 
   .date-time {
@@ -623,7 +623,7 @@
     font-size: 15px;
   }
 
-    hr {
+  hr {
     width: 6%;
     margin-left: 46%;
     background-color: orangered;
@@ -726,7 +726,7 @@
 
   .main-program ul li {
     margin-right: 0.3%;
-        padding: 20px;
+    padding: 20px;
   }
 
   .main-program li img {
@@ -746,14 +746,12 @@
     margin-left: -300px;
     margin-bottom: 30px;
     margin-top: 100px;
-
   }
 
   .about-main h3 {
     font-size: 40px;
     color: orangered;
     font-weight: 800;
-    text-align: left;
     margin-left: 20%;
     text-align: center;
   }
@@ -802,7 +800,7 @@
     flex-direction: row;
     margin-left: 10%;
     margin-top: 10%;
-        height: 200%;
+    height: 200%;
   }
 
   .speakers ul li img {
@@ -831,7 +829,7 @@
     flex-direction: column;
     text-align: left;
     margin-left: 3%;
-        height: 50%;
+    height: 50%;
   }
 
   .about {
@@ -849,7 +847,6 @@
     color: orangered;
     font-weight: 400;
     margin-top: 0%;
-    text-align: left;
     margin-left: 20%;
     text-align: center;
   }
@@ -904,20 +901,6 @@
     margin-top: 2%;
   }
 
-  .past-conference {
-    margin-top: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .past-conference h2 {
-    font-size: 4vw;
-    font-weight: 500;
-    color: rgb(34, 34, 34);
-  }
-
   .rights-reserved {
     margin-top: 0%;
     width: 100%;
@@ -936,7 +919,7 @@
     margin-left: 5%;
   }
 
-   .past-conference {
+  .past-conference {
     margin-top: 15%;
     display: flex;
     flex-direction: column;
@@ -953,8 +936,8 @@
     margin-bottom: 20px;
   }
 
-  .past-conference hr, .logo hr {
+  .past-conference hr,
+  .logo hr {
     margin-left: 0;
   }
-
 }
