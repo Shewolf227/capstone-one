@@ -24,7 +24,8 @@ const speakerInfo = [
     image: 'img/speakers/Carlos-Garcia-Galan.png',
     position: 'Manager of the European Service Module at NASA',
     description: 'Carlos brings a wealth of human spaceflight expertise and knowledge with over 24 years of experience at NASA. Carlos served in various key technical and management roles for the Orion Program since 2010, including management of integrated spacecraft design and performance, mission analysis, cross-program integration and launch and flight operations support.',
-  },{
+  },
+  {
     name: 'Bruce Pon',
     image: 'img/speakers/Bruce-Pon.png',
     position: 'Founder at OCEAN PROTOCOL',
