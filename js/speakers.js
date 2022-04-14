@@ -14,10 +14,21 @@ const speakerInfo = [
     description: "Rong Chen began studying operating systems in 1985, when he began his career as a student at the University of Illinois at Urbana-Champaign. In 1987, Rong worked with four fellow students in the National Center for Supercomputing Applications (NCSA) to create software fetching data from Cray Supercomputers and render them on workstations, which eventually led to the creation of the world's first web browser, Mosaic.",
   },
   {
-    name: 'Genevieve Leveille',
-    image: 'img/speakers/Genevieve-Leveille.jpg',
-    position: 'Founder and CEO at AGRILEDGER',
-    description: 'Genevieve led AgriLedger’s collaboration with Haiti’s Ministry of Commerce and Industry to deliver a Distributed Ledger Technology pilot sponsored by the World Bank. The project went live in May 2020 allowing Haitian fruit farmers, customers and families to reap the benefits of fairer prices and improved food security.',
+    name: 'Leni Andronicos',
+    image: 'img/speakers/Leni-Andronicos.png',
+    position: 'Co-Founder and CEO at LOGCAST',
+    description: 'Leni Andronicos is co-founder and CEO at Logcast. Built out of Sweden, Logcast is a new audio-based social network exploring the future of digital social experiences.',
+  },
+  {
+    name: 'Carlos Garcia-Galan',
+    image: 'img/speakers/Carlos-Garcia-Galan.png',
+    position: 'Manager of the European Service Module at NASA',
+    description: 'Carlos brings a wealth of human spaceflight expertise and knowledge with over 24 years of experience at NASA. Carlos served in various key technical and management roles for the Orion Program since 2010, including management of integrated spacecraft design and performance, mission analysis, cross-program integration and launch and flight operations support.',
+  },{
+    name: 'Bruce Pon',
+    image: 'img/speakers/Bruce-Pon.png',
+    position: 'Founder at OCEAN PROTOCOL',
+    description: 'Bruce Pon is the Founder of Ocean Protocol, a blockchain startup focused on bringing data and AI together since 2013. Previously, Bruce co-founded Avantalion, a consulting firm that helped to build 20 banks around the globe for companies such as Mercedes-Benz, Volkswagen, Mitsubishi & Jaguar LandRover.',
   },
   {
     name: 'Shelley Peterson',
@@ -61,6 +72,22 @@ window.addEventListener('DOMContentLoaded', () => {
                 <h2 class='speaker-name'>${speakerInfo[3].name}</h2>
                 <h3 class='speaker-post'>${speakerInfo[3].position}</h3>
                 <h3 class='speaker-description'>${speakerInfo[3].description}</h3>
+            </div>
+        </li>
+        <li>
+            <img src=${speakerInfo[4].image} alt='speakerimg1'>
+            <div class='speaker-info'>
+                <h2 class='speaker-name'>${speakerInfo[4].name}</h2>
+                <h3 class='speaker-post'>${speakerInfo[4].position}</h3>
+                <h3 class='speaker-description'>${speakerInfo[4].description}</h3>
+            </div>
+        </li>
+        <li>
+            <img src=${speakerInfo[5].image} alt='speakerimg1'>
+            <div class='speaker-info'>
+                <h2 class='speaker-name'>${speakerInfo[5].name}</h2>
+                <h3 class='speaker-post'>${speakerInfo[5].position}</h3>
+                <h3 class='speaker-description'>${speakerInfo[5].description}</h3>
             </div>
         </li>
      </ul>`;

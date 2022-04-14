@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;800;900&display=swap');
+@font-face {
+    font-family: "cocogoose";
+    src: url("../fonts/cocogoose/Cocogoose-Pro-trial.ttf");
+  }
 
 * {
   margin: 0;
@@ -76,7 +79,6 @@
     display: flex;
     position: absolute;
     z-index: 2;
-    margin: 20px 0 0 450px;
     width: 40px;
     height: 40px;
   }
@@ -87,7 +89,7 @@
 
   .main-title h3 {
     font-size: 40px;
-    background-image: url('../img/background/text-bkgrnd.jpg');
+    background-image: url('../img/background//text-bkgrnd.webp');
     background-size: cover;
     -webkit-background-clip: text;
     color: transparent;
@@ -151,7 +153,7 @@
   }
 
   .partners img {
-    width: 15%;
+    width: 60%;
     margin-bottom: 10px;
   }
 
@@ -198,6 +200,38 @@
     padding: 20px 0;
   }
 
+  .event-1 {
+      opacity: 0.65;
+    }
+
+  .past-conference-image {
+    position: relative;
+    color: white;
+    padding-bottom: 60px;
+  }
+
+  .past-conference-image .second-text {
+    position: absolute;
+    top: 66%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    color: #272a31;
+    z-index: 1;
+    width: 69%;
+  }
+
+  .past-conference-image .first-text {
+    position: absolute;
+    top: 24%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    color: #272a31;
+    z-index: 1;
+    width: 69%;
+  }
+
   .past-conference h3 {
     font-size: 15px;
     font-weight: 400;
@@ -210,7 +244,6 @@
     font-size: 30px;
     color: orangered;
     font-weight: 900;
-    margin-left: -80px;
   }
 
   .main-program li h3 {
@@ -311,7 +344,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url('../img/background/bkgrnd-4.jpg');
+    background-image: url('https://wallpapercave.com/wp/wp3728849.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -341,7 +374,7 @@
     width: 80%;
     margin-top: 5%;
     border: 2px solid #fff;
-    background-color: #f0f9fe;
+    background-color: #f4f3f8;
     padding: 25px;
   }
 
@@ -402,7 +435,7 @@
     width: 100%;
     background-color: rgb(51, 51, 51);
     mix-blend-mode: multiply;
-    height: 150px;
+    height: 300px;
     margin-top: 5%;
     overflow: hidden;
   }
@@ -415,9 +448,9 @@
   }
 
   .partner-img {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
   }
 
   hr {
@@ -467,6 +500,7 @@
   .desktop-header {
     background: #fff;
     box-shadow: 2px 0 4px 0 #ff6940;
+    padding: 0 100px;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -475,6 +509,7 @@
   .header1 {
     background-color: rgb(43, 42, 42);
     height: 30px;
+    padding-right: 100px;
   }
 
   .header1 ul {
@@ -555,7 +590,7 @@
     text-align: center;
     margin-top: 20px;
     padding: 20px 0;
-    margin-left: 200px;
+    margin-left: 27%;
   }
 
   #about {
@@ -577,23 +612,26 @@
 
   .main-title h3 {
     font-size: 4vw;
-    background-image: url('../img/background/text-bkgrnd.jpg');
+    background-image: url('../img/background/text-bkgrnd.webp');
     background-size: cover;
     -webkit-background-clip: text;
     color: transparent;
     font-weight: 800;
     line-height: 60px;
+    margin-left: 90px;
+        margin-bottom: 30px;
   }
 
   .main-title h2 {
     font-size: 3vw;
     color: orangered;
     font-weight: 300;
+    margin-left: 90px;
   }
 
   .description {
-    margin: 10px 20px;
-    width: 80%;
+    width: 75%;
+    margin-left: 123px;
   }
 
   .description p {
@@ -610,6 +648,8 @@
     margin-left: 3%;
     background-color: rgba(255, 255, 255, 0.2);
     width: 70%;
+    padding-left: 87px;
+    margin-top: 30px;
   }
 
   .date-time h2 {
@@ -641,11 +681,16 @@
     color: rgba(54, 54, 54, 0.9);
     width: 80%;
     margin-top: 30px;
+    text-align: center;
   }
 
   .past-conference-image {
     display: flex;
     flex-direction: row;
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-bottom: 60px;
   }
 
   .past-conference img {
@@ -654,8 +699,37 @@
     margin-top: 5%;
   }
 
+  .past-conference-image .second-text {
+    position: absolute;
+    top: 45%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 700;
+    color: #272a31;
+    z-index: 1;
+    width: 36%;
+  }
+
+  .past-conference-image .first-text {
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 700;
+    width: 41%;
+    color: #272a31;
+    z-index: 1;
+  }
+
+  .event-1 {
+    opacity: 0.65;
+  }
+
   .rights-reserved img {
-    height: 30%;
+    height: 68%;
+    margin-left: -120px;
   }
 
   .partners {
@@ -664,8 +738,6 @@
     width: 100%;
     background-color: rgb(51, 51, 51);
     height: 200px;
-    margin-top: 1%;
-    opacity: 0.95;
   }
 
   .partners h2 {
@@ -680,6 +752,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin-top: 1%;
+    margin: 0 94px;
   }
 
   .partners img {
@@ -718,9 +791,9 @@
 
   .main-program ul {
     margin-top: 5%;
-    margin-left: 50px;
+    margin-left: 140px;
     display: flex;
-    width: 90%;
+    width: 77%;
   }
 
   .main-program ul li {
@@ -792,6 +865,8 @@
     margin-top: 1%;
     display: grid;
     grid-template-columns: 50% 50%;
+    padding-bottom: 80px;
+    margin: 0 94px;
   }
 
   .speakers ul li {
@@ -802,7 +877,7 @@
   }
 
   .speakers ul li img {
-    height: 25%;
+    width: 35%;
   }
 
   .speaker-name {
@@ -902,7 +977,7 @@
   .rights-reserved {
     margin-top: 0%;
     width: 100%;
-    height: 300px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -914,7 +989,7 @@
     font-size: 12px;
     font-weight: 400;
     color: rgba(54, 54, 54, 0.9);
-    margin-left: 5%;
+    margin-right: -200px;
   }
 
   .past-conference {
